@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" target="_blank" href="./assets/css/style.css" />
+    <link
+      target="_blank"
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Cards animation</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="content">
+          <h2>01</h2>
+          <h3>Sobre mim</h3>
+          <p>
+            Sou desenvolvedora fullstack Java, sou movida a desafios e
+            curiosidade. Resolver problemas me deixa muito feliz.
+          </p>
+          <a target="_blank" href="https://github.com/HarukaIonaSao/">Github</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h2>02</h2>
+          <h3>Conteúdos</h3>
+          <p>
+            Publico sobre projetos backend Java e frontend com React, Css e
+            Javascript puro, com ênfase em acessibilidade.
+          </p>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/roberta-ribeiro-dev/"
+            >Linkedin</a
+          >
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h2>03</h2>
+          <h3>Hobbies</h3>
+          <p>
+            Amo animes, doces 🍫, chá 🍵 e jogos retrô 👾 tem um lugar especial
+            no meu coração.💙
+          </p>
+          <a
+            target="_blank"
+            href="https://www.youtube.com/watch?v=o0pjEA7hIec&ab_channel=RobertaRibeiro"
+            >Pitch</a
+          >
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./assets/js/vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 1,
+      });
+    </script>
+
+    <!-- VLibras -->
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+
+    <!-- Userway -->
+    <script>
+      (function (d) {
+        var s = d.createElement("script");
+        s.setAttribute("data-account", "GXu4TnQ4yd");
+        s.setAttribute("src", "https://accessibilityserver.org/widget.js");
+        (d.body || d.head).appendChild(s);
+      })(document);
+    </script>
+    <noscript
+      >Please ensure Javascript is enabled for purposes of
+      <a href="https://accessibilityserver.org"
+        >website accessibility</a
+      ></noscript
+    >
+
+    <div id="root"></div>
+  </body>
+</html>
